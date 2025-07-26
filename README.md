@@ -33,3 +33,14 @@ You’ll need Python 3 and the following libraries:
 
 ```bash
 pip install numpy galois
+####################################################################################################
+---
+
+## 👨‍💻 Author
+
+**Shashank Ranjan**  
+PhD Researcher, IIT Hyderabad  
+
+- GitHub: [PowerUnlock](https://github.com/PowerUnlock)  
+- ORCID: [0009-0002-9665-7682](https://orcid.org/0009-0002-9665-7682)  
+- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/shashank-ranjan-bb3195102/)
