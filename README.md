@@ -1,6 +1,6 @@
-# Binary Matrix Generator using BCH Codes
+# Direct RNSP-Satisfying Binary/Bipolar Matrix Generator Using BCH Codes
 
-This repository provides Python code to generate **binary matrices** for compressed sensing applications using **BCH (Bose–Chaudhuri–Hocquenghem) codes**.
+This repository provides Python code to generate **binary and bipolar measurement matrices** that directly satisfy the **Robust Null Space Property (RNSP)** for compressed sensing applications, using **BCH (Bose–Chaudhuri–Hocquenghem) codes**.
 
 ---
 
