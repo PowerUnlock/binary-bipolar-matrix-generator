@@ -27,9 +27,11 @@ def custom(d, n, n1):
                 h = 1
             else:
                 A = np.vstack((A, d))
+                p, q = A.shape
+                print(p,q)
         if v == n1:
             break
     A = np.transpose(A)
-    B = np.ones( (e, n1), dtype = int )
-    C = 2*A - B
-    return(A, C)
+    #B = np.ones( (e, n1), dtype = int )
+    #C = 2*A - B
+    return A
