@@ -1,10 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jan 13 22:40:46 2023
+Created on Mon Dec 29 13:48:42 2025
 
-@author: asus
+@author: apple
 """
-
 import numpy as np
 import math
 from nsymgen import*
@@ -23,14 +23,19 @@ def custom2(d, n, n1):
         s = d.sum()
         if s == c:
             v = v+1
+            print(v)
             if h == 0:
                 A = d
                 h = 1
             else:
                 A = np.vstack((A, d))
+                p, q = A.shape
+                print(p,q)
         if v == n1:
             break
     A = np.transpose(A)
-    B = np.ones( (e, n1), dtype = int )
-    C = 2*A-B
-    return(A,C)
+    #B = np.ones( (e, n1), dtype = int )
+    #C = 2*A - B
+    return A
+
+#########################################################################################
